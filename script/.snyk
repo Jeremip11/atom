@@ -8,6 +8,8 @@ patch:
         patched: '2018-08-07T04:12:54.076Z'
     - fs-admin > mocha > debug:
         patched: '2018-08-07T04:13:58.069Z'
+    - fs-admin > mocha > debug:
+        patched: '2018-08-07T13:18:22.841Z'
   'npm:hoek:20180212':
     - npm > node-gyp > request > hawk > hoek:
         patched: '2018-08-07T04:12:54.076Z'
@@ -41,6 +43,30 @@ patch:
         patched: '2018-08-07T04:13:58.069Z'
     - npm > libcipm > npm-lifecycle > node-gyp > request > hawk > cryptiles > boom > hoek:
         patched: '2018-08-07T04:13:58.069Z'
+    - npm > npm-lifecycle > node-gyp > request > hawk > sntp > hoek:
+        patched: '2018-08-07T13:18:22.841Z'
+    - npm > node-gyp > request > hawk > boom > hoek:
+        patched: '2018-08-07T13:18:22.841Z'
+    - npm > node-gyp > request > hawk > sntp > hoek:
+        patched: '2018-08-07T13:18:22.841Z'
+    - npm > npm-lifecycle > node-gyp > request > hawk > hoek:
+        patched: '2018-08-07T13:18:22.841Z'
+    - npm > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-08-07T13:18:22.841Z'
+    - npm > npm-lifecycle > node-gyp > request > hawk > boom > hoek:
+        patched: '2018-08-07T13:18:22.841Z'
+    - npm > node-gyp > request > hawk > hoek:
+        patched: '2018-08-07T13:18:22.841Z'
+    - npm > libcipm > npm-lifecycle > node-gyp > request > hawk > hoek:
+        patched: '2018-08-07T13:18:22.841Z'
+    - npm > libcipm > npm-lifecycle > node-gyp > request > hawk > boom > hoek:
+        patched: '2018-08-07T13:18:22.841Z'
+    - npm > npm-lifecycle > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-08-07T13:18:22.841Z'
+    - npm > libcipm > npm-lifecycle > node-gyp > request > hawk > sntp > hoek:
+        patched: '2018-08-07T13:18:22.841Z'
+    - npm > libcipm > npm-lifecycle > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-08-07T13:18:22.841Z'
   'npm:lodash:20180130':
     - babel-core > babel-plugin-proto-to-assign > lodash:
         patched: '2018-08-07T04:12:54.076Z'
@@ -50,6 +76,10 @@ patch:
         patched: '2018-08-07T04:13:58.069Z'
     - electron-packager > plist > xmlbuilder > lodash:
         patched: '2018-08-07T04:13:58.069Z'
+    - npm > cli-table2 > lodash:
+        patched: '2018-08-07T13:18:22.841Z'
+    - electron-packager > plist > xmlbuilder > lodash:
+        patched: '2018-08-07T13:18:22.841Z'
   'npm:mime:20170907':
     - webdriverio > request > mime:
         patched: '2018-08-07T04:12:54.076Z'
