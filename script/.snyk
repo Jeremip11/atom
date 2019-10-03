@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.13.5
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -60,3 +60,12 @@ patch:
         patched: '2018-08-07T04:12:54.076Z'
     - webdriverio > archiver > file-utils > minimatch:
         patched: '2018-08-07T04:12:54.076Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - npm > npm-profile > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-03T23:31:48.752Z'
+    - npm > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-03T23:31:48.752Z'
+    - npm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-03T23:31:48.752Z'
+    - npm > libcipm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-03T23:31:48.752Z'
