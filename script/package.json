@@ -36,7 +36,7 @@
     "tello": "1.0.7",
     "webdriverio": "4.13.0",
     "yargs": "4.8.1",
-    "snyk": "^1.90.0"
+    "snyk": "^1.316.1"
   },
   "scripts": {
     "snyk-protect": "snyk protect",
