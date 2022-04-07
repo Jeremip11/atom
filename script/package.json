@@ -2,7 +2,7 @@
   "name": "atom-build-scripts",
   "description": "Atom build scripts",
   "dependencies": {
-    "async": "2.0.1",
+    "async": "3.2.2",
     "babel-core": "6.10.4",
     "coffeelint": "1.16.0",
     "colors": "1.1.2",
@@ -34,7 +34,7 @@
     "stylelint-config-standard": "^18.1.0",
     "sync-request": "3.0.1",
     "tello": "1.0.7",
-    "webdriverio": "4.13.0",
+    "webdriverio": "5.0.0",
     "yargs": "4.8.1",
     "snyk": "^1.90.0"
   },
