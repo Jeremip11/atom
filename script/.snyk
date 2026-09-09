@@ -1,0 +1,66 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - eslint-plugin-import > lodash:
+        patched: '2026-09-09T21:28:02.951Z'
+        id: SNYK-JS-LODASH-567746
+        path: eslint-plugin-import > lodash
+    - npm-check > depcheck > @babel/traverse > lodash:
+        patched: '2026-09-09T21:28:02.951Z'
+        id: SNYK-JS-LODASH-567746
+        path: npm-check > depcheck > @babel/traverse > lodash
+    - npm-check > depcheck > @babel/traverse > @babel/generator > lodash:
+        patched: '2026-09-09T21:28:02.951Z'
+        id: SNYK-JS-LODASH-567746
+        path: npm-check > depcheck > @babel/traverse > @babel/generator > lodash
+    - npm-check > depcheck > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2026-09-09T21:28:02.951Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          npm-check > depcheck > @babel/traverse >
+          @babel/helper-split-export-declaration > @babel/types > lodash
+    - npm-check > depcheck > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2026-09-09T21:28:02.951Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          npm-check > depcheck > @babel/traverse > @babel/helper-function-name >
+          @babel/template > @babel/types > lodash
+    - stylelint > lodash:
+        patched: '2026-09-09T21:28:02.951Z'
+        id: SNYK-JS-LODASH-567746
+        path: stylelint > lodash
+    - npm-check > callsite-record > lodash:
+        patched: '2026-09-09T21:28:02.951Z'
+        id: SNYK-JS-LODASH-567746
+        path: npm-check > callsite-record > lodash
+    - stylelint > postcss-reporter > lodash:
+        patched: '2026-09-09T21:28:02.951Z'
+        id: SNYK-JS-LODASH-567746
+        path: stylelint > postcss-reporter > lodash
+    - stylelint > table > lodash:
+        patched: '2026-09-09T21:28:02.951Z'
+        id: SNYK-JS-LODASH-567746
+        path: stylelint > table > lodash
+    - electron-chromedriver > @electron/get > global-tunnel-ng > lodash:
+        patched: '2026-09-09T21:28:02.951Z'
+        id: SNYK-JS-LODASH-567746
+        path: electron-chromedriver > @electron/get > global-tunnel-ng > lodash
+    - electron-mksnapshot > @electron/get > global-tunnel-ng > lodash:
+        patched: '2026-09-09T21:28:02.951Z'
+        id: SNYK-JS-LODASH-567746
+        path: electron-mksnapshot > @electron/get > global-tunnel-ng > lodash
+    - npm-check > lodash:
+        patched: '2026-09-09T21:28:02.951Z'
+        id: SNYK-JS-LODASH-567746
+        path: npm-check > lodash
+    - npm-check > depcheck > lodash:
+        patched: '2026-09-09T21:28:02.951Z'
+        id: SNYK-JS-LODASH-567746
+        path: npm-check > depcheck > lodash
+    - npm-check > inquirer > lodash:
+        patched: '2026-09-09T21:28:02.951Z'
+        id: SNYK-JS-LODASH-567746
+        path: npm-check > inquirer > lodash
